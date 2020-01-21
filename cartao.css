@@ -34,7 +34,8 @@
   backface-visibility: hidden;       
   transform: translate3d(0,0,0);
   cursor: e-resize;
-  background-color: #363636;
+  background-image: url(img/car.jpg);
+  background-size: cover;
 }
 
 /* Inverte o lado do verso para que só apareça quando o cartão for virado*/
