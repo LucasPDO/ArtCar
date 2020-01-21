@@ -45,7 +45,7 @@
 }
 
 
-@keyframes girar {
+/* @keyframes girar {
   0%, 40% {
      transform: rotateY(0deg); 
   }
@@ -55,7 +55,7 @@
   100% {
     transform: rotateY(360deg);
   }
-}
+} */
 
 
 .cartao {
@@ -89,8 +89,20 @@
   left: 1em;
 }
 img {
-  width:200px; 
-  height:200px;
+  width:100px; 
+  height:100px;
   margin: 0 auto;
   float: left;
+}
+.Car {
+  width:100px; 
+  height:100px;
+  margin: 0 auto;
+  float: right;
+}
+
+.box-frente {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
 }
