@@ -19,7 +19,7 @@
   transform-style: preserve-3d;
   transition: all 500ms linear; 
   box-shadow: -5px 5px 5px #aaa;
-  //animation: girar 5s infinite ease-out both;
+  animation: girar 5s infinite ease-out both;
   transform: translate3d(0,0,0);
 }
 .portaCartao:hover .cartao {
@@ -34,7 +34,7 @@
   backface-visibility: hidden;       
   transform: translate3d(0,0,0);
   cursor: e-resize;
-  background-color: lightgray;
+  background-color: #363636;
 }
 
 /* Inverte o lado do verso para que só apareça quando o cartão for virado*/
@@ -60,7 +60,7 @@
 .cartao {
   font-family: Arial;
   font-size: 10px;
-  /*color: white;*/ 
+  color: white;
 }
 
 .cartao .lado.frente {
@@ -88,7 +88,8 @@
   left: 1em;
 }
 img {
-  width:100px; 
-  height:100px;
+  width:200px; 
+  height:200px;
   margin: 0 auto;
+  float: left;
 }
